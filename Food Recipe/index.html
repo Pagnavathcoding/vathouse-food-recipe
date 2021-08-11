@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipe | Pagnavath</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Images/restaurant.svg" />
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <a href="./index.html">
+                <img src="./Images/restaurant.svg" />
+                <h1>Food Recipe</h1>
+            </a>
+        </nav>
+        <div class="container">
+            <p>Learn how to cook.</p>
+            <div class="search">
+                <input type="text" placeholder="Input food name..." id="search-input" value="egg" />
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="clear" id="clear">
+                <button>Clear input</button>
+            </div>
+        </div>
+    </header>
+    <a href="#header">
+        <div class="top">
+            <button><span id="to">To </span>Top</button>
+        </div>
+    </a>
+    <div class="keyword">
+        <p id="keyword"></p>
+    </div>
+    <!-- <div class="err" id="err">
+        <p>Please input food name!</p>
+    </div> -->
+    <section class="content" id="content">
+    </section>
+    <footer>
+        <p>copyright 2021 Food Recipe | developed by <span><a href="mailto:pagnavathcoding@gmail.com">Sok
+                    Pagnavath</a></span>, all rights reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
